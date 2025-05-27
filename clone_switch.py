@@ -4,8 +4,8 @@ import json
 import meraki
 from pathlib import Path
 
-# API_KEY = 'YOUR_API_KEY_HERE'
-dashboard = meraki.DashboardAPI()
+API_KEY = 'YOUR_API_KEY_HERE'
+dashboard = meraki.DashboardAPI(api_key=API_KEY)
 
 # Ask User for Source / Destination Switch
 source_switch_serial = input("Enter source switch serial: ")

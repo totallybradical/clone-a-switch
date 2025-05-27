@@ -22,6 +22,11 @@ source venv/bin/activate
 pip install -r requirements.txt
 ```
 
+5. Edit line 7 in **clone_switch.py** to include your Meraki API key
+``` python
+API_KEY = 'YOUR_API_KEY_HERE'
+```
+
 ## Execution
 1. Run the script
 ```
